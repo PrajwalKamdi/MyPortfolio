@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div className="grid xl:grid-cols-2  px-3 md:p-20 bg-[#02060c] h-[100vh] md:pt-20">
+      <div className="grid xl:grid-cols-2 justify-start px-3 md:p-20 bg-[#02060c] h-[100vh] md:pt-20">
         <div className=" text-white space-y-3 m-auto">
           <p className="text-2xl md:text-3xl font-semibold ">
             Hello, I'm Prajwal Kamdi
@@ -34,7 +34,7 @@ function Home() {
         </div>
         <div className="mx-auto md:pt-8">
           <img
-            src="/images/img1.jpg"
+            src="src/assets/images/img1.jpg"
             alt=""
             className="h-[180px] w-[180px] hover:scale-105 duration-500  md:h-[250px] md:w-[250px] 
            xl:h-[400px] xl:w-[400px]  border border-solid  rounded-full shadow-md shadow-[#00abf0] xl:shadow-lg  xl:shadow-[#00abf0] xl:hover:scale-105"
