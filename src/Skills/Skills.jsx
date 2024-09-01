@@ -44,7 +44,7 @@ function Skills() {
 
           <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] p-2 xl:hover:scale-105 duration-500">
             <div className="mx-3 my-14">
-              <img src="src/Images/pngwing.com.png" className="" alt="" />
+              <img src="src/Images/pngwingcom.png" className="" alt="" />
             </div>
             <div className="capitalize">
               <p>
