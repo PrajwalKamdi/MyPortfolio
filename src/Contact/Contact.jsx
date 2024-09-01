@@ -5,12 +5,12 @@ import { IoLogoGithub } from "react-icons/io";
 import { Link } from "react-router-dom";
 function Contact() {
   return (
-    <div className="bg-[#02060c] text-white h-max">
+    <div className="bg-[#02060c] text-white">
       <div className="p-10 text-center space-y-2 ">
         <h1 className="text-4xl font-semibold">Contact Me</h1>
         <p>Below are details to reach out to me</p>
       </div>
-      <div className="grid  2xl:grid-cols-5 2xl:px-20 2xl:py-20 xl:grid-cols-5 xl:px-20 xl:py-20 lg:grid-cols-5 lg:px-20 lg:py-20 md:grid-cols-3">
+      <div className="grid m-auto  2xl:grid-cols-5 2xl:px-20 2xl:py-20 xl:grid-cols-5 xl:px-20 xl:py-20 lg:grid-cols-5 lg:px-20 lg:py-20 md:grid-cols-3">
         <div className="grid grid-rows-3 text-center">
           <div className=" shadow-md shadow-[#00abf0] rounded-full w-fit m-auto  p-2 hover:scale-110 duration-500">
             <MdHome size={30} />
