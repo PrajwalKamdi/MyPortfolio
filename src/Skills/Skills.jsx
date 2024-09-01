@@ -1,4 +1,11 @@
 import React from "react";
+import combine from "/src/assets/combine.png"
+import react from "/src/assets/react.png"
+import java from "/src/assets/java.png"
+import spring from "/src/assets/spring.png"
+import tailwind from "/src/assets/tailwind.png"
+
+
 function Skills() {
   return (
     <>
@@ -10,10 +17,10 @@ function Skills() {
         <div className="grid grid-cols-1 sm: px-5 md:px-8 md:grid-cols-2 xl:grid-cols-4 gap-10 py-10">
           <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-500">
             <div className="">
-              <img src="src/assets/pngegg (8).png" alt="" />
+              <img src={combine} alt="" />
             </div>
             <div className="m-auto w-[100px] md:w-[100px]">
-              <img src="src/assets/pngegg (6).png" alt="" />
+              <img src={react} alt="" />
             </div>
             <div className="m-auto pt-5">
               <p>
@@ -24,7 +31,7 @@ function Skills() {
           </div>
           <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-500">
             <div>
-              <img src="src/assets/pngegg (2).png" />
+              <img src={java} />
             </div>
             <div>
               <p>Skilled In Java Programing Languange.</p>
@@ -32,7 +39,7 @@ function Skills() {
           </div>
           <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-500">
             <div className="">
-              <img src="src/assets/pngegg (10).png" className="" alt="" />
+              <img src={spring} className="" alt="" />
             </div>
             <div className="capitalize">
               <p>
@@ -44,7 +51,7 @@ function Skills() {
 
           <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-500">
             <div className="mx-3 my-14">
-              <img src="src/assets/pngwingcom.png" className="" alt="" />
+              <img src={tailwind} className="" alt="" />
             </div>
             <div className="capitalize">
               <p>

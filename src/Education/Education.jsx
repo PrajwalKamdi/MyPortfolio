@@ -1,4 +1,6 @@
 import React from "react";
+import nit from "/src/assets/nit.png"
+import school from "/src/assets/school.png.png"
 function Education() {
   return (
     <div className="bg-[#02060c] md:px-20 text-white pb-20 xl:px-32 h-max">
@@ -9,7 +11,7 @@ function Education() {
         <div className="grid grid-cols-1 gap-5 px-5 md:gap-14 md:grid-cols-2 xl:grid-cols-3">
           <div className="m-3 p-3 border-[1px] border-solid rounded-md shadow-md shadow-[#00abf0] hover:scale-105   md:m-0 xl:hover:scale-105 duration-500">
             <div className="">
-              <img src="src/assets/nit.png" alt="" className="rounded-md" />
+              <img src={nit} alt="" className="rounded-md" />
             </div>
             <div className="md:py-5">
               <h2 className="font-bold mt-1">BTech CGPA : 8.63</h2>
@@ -21,7 +23,7 @@ function Education() {
 
           <div className="m-3 p-3 border-[1px] border-solid shadow-md shadow-[#00abf0] hover:scale-105 rounded-md md:m-0 xl:hover:scale-105 duration-500">
             <div>
-              <img src="src/assets/img2.jpg" alt="" className="rounded-md" />
+              <img src={school} alt="" className="rounded-md bg-white" />
             </div>
             <div className="md:py-5">
               <h2 className="font-bold mt-1">12th : 72.42% ( State Board )</h2>
@@ -33,7 +35,7 @@ function Education() {
           </div>
           <div className="m-3 p-3 border-[1px] border-solid shadow-md shadow-[#00abf0] hover:scale-105 rounded-md  md:m-0 xl:hover:scale-105 duration-500">
             <div>
-              <img src="src/assets/img2.jpg" alt="" className="rounded-md" />
+              <img src={school} alt="" className="rounded-md bg-white" />
             </div>
             <div className="md:py-5">
               <h2 className="font-bold mt-1">10th : 92.20% ( State Board )</h2>

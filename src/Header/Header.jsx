@@ -104,9 +104,9 @@ function Header() {
           onClick={handle2}
         >
           <nav>
-            <ul className="space-y-10 px-3">
-              <li className="">
-                <NavLink to={"home"}>Home</NavLink>
+            <ul className="space-y-10 py-5 px-3">
+              <li>
+                <NavLink to={"/"}>Home</NavLink>
               </li>
               <li>
                 <NavLink to={"education"}>Education</NavLink>
