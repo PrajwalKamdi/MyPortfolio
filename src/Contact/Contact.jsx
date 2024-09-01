@@ -8,7 +8,7 @@ function Contact() {
     <div className="bg-[#02060c] text-white">
       <div className="p-10 text-center space-y-2 ">
         <h1 className="text-4xl font-semibold">Contact Me</h1>
-        {/* <p>Below are details to reach out to me</p> */}
+        <p className="p-5 text-xl">Below are details to reach out to me</p>
       </div>
       <div className="grid m-auto  2xl:grid-cols-5 2xl:px-20 2xl:py-20 xl:grid-cols-5 xl:px-20 xl:py-20 lg:grid-cols-5 lg:px-20 lg:py-20 md:grid-cols-3">
         <div className="grid grid-rows-3 text-center">

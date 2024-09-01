@@ -34,7 +34,7 @@ function Home() {
         </div>
         <div className="mx-auto md:pt-8">
           <img
-            src="src/assets/images/img1.jpg"
+            src="src/assets/img1.jpg"
             alt=""
             className="h-[180px] w-[180px] hover:scale-105 duration-500  md:h-[250px] md:w-[250px] 
            xl:h-[400px] xl:w-[400px]  border border-solid  rounded-full shadow-md shadow-[#00abf0] xl:shadow-lg  xl:shadow-[#00abf0] xl:hover:scale-105"
