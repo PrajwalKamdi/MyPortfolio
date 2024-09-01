@@ -5,7 +5,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { Link } from "react-router-dom";
 function Contact() {
   return (
-    <div className="bg-[#02060c] text-white">
+    <div className="bg-[#02060c] text-white h-max">
       <div className="p-10 text-center space-y-2 ">
         <h1 className="text-4xl font-semibold">Contact Me</h1>
         <p>Below are details to reach out to me</p>

@@ -8,7 +8,7 @@ function Skills() {
         </h1>
         <h1 className="text-4xl"></h1>
         <div className="grid grid-cols-1 sm: px-5 md:px-8 md:grid-cols-2 xl:grid-cols-4 gap-10 py-10">
-          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] p-2 xl:hover:scale-105 duration-500">
+          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-300">
             <div className="">
               <img src="src/Images/pngegg (8).png" alt="" />
             </div>
@@ -22,7 +22,7 @@ function Skills() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] p-2 xl:hover:scale-105 duration-500">
+          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-300">
             <div>
               <img src="src/Images/pngegg (2).png" />
             </div>
@@ -30,7 +30,7 @@ function Skills() {
               <p>Skilled In Java Programing Languange.</p>
             </div>
           </div>
-          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] p-2 xl:hover:scale-105 duration-500">
+          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-300">
             <div className="">
               <img src="src/Images/pngegg (10).png" className="" alt="" />
             </div>
@@ -42,7 +42,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] p-2 xl:hover:scale-105 duration-500">
+          <div className="flex flex-col justify-between border border-solid border-[#00abf0] shadow-md shadow-[#00abf0] hover:scale-105 p-2 xl:hover:scale-105 duration-300">
             <div className="mx-3 my-14">
               <img src="src/Images/pngwingcom.png" className="" alt="" />
             </div>

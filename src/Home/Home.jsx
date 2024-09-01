@@ -1,12 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../Header/Header";
-import Education from "../Education/Education";
-import Project from "../Project/Project";
-import Contact from "../Contact/Contact";
-import Skills from "../Skills/Skills";
-import Footer from "../Footer/Footer";
-
 
 function Home() {
   return (

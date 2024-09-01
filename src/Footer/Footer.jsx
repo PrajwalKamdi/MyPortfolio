@@ -8,7 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <footer className="pt-20 px-3 text-sm text-gray-300 bg-[#040b16] md:p-20">
+      <footer className="pt-20 px-3 text-sm text-gray-300 bg-[#040b16] md:p-20 h-max">
         <div className="grid grid-cols-3 justify-center">
           <div className="grid grid-cols-1 space-y-1 ">
             <p className="font-semibold">Resources</p>
